@@ -6,4 +6,4 @@ def handle(n):
     while a < n:
         a, b = b, a+b
         empty_list.append([a, b])
-    return json.dumps(empty_list)
+    return json.dumps({"list":empty_list})
