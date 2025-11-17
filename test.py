@@ -39,4 +39,3 @@ def handle(data):
       input = data["input"]
 
     return json.dumps({"buttons": buttons}, ensure_ascii=False)
-handle(json_data)
